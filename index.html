@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          
+          <span class="sound">crash</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">kick-bass</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <span class="sound">snare</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">tom-1</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">tom-2</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">tom-3</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <span class="sound">tom-4</span>
+        </div>
+        
+        <audio data-key="65" src="sounds/crash.mp3"></audio>
+        <audio data-key="83" src="sounds/kick-bass.mp3"></audio>
+        <audio data-key="68" src="sounds/snare.mp3"></audio>
+        <audio data-key="70" src="sounds/tom-1.mp3"></audio>
+        <audio data-key="71" src="sounds/tom-2.mp3"></audio>
+        <audio data-key="72" src="sounds/tom-3.mp3"></audio>
+        <audio data-key="74" src="sounds/tom-4.mp3"></audio>
+        <script src="main.js"></script>
+        
+</body>
+</html>
